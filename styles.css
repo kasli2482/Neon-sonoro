@@ -7,12 +7,26 @@
 body {
     background-color: #050508;
     color: #ffffff;
-    font-family: 'Saira Stencil One', cursive;
+   
     line-height: 1.6;
     padding: 20px;
     margin: 0 auto;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }
 
+
+img {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
 header {
     background-color: #0d0d14;
     border: solid #00f3ff;
@@ -325,19 +339,6 @@ td {
     color: #ffffff;
 }
 
-.formulario {
-    background-color: #000000;
-    border: 10px solid #00f3ff;
-    box-shadow: 0 0 100px #00f3ff, inset 0 0 15px #00f3ff;
-    border-radius: 25px;
-    corner-shape: scoop;
-    padding: 25px;
-}
-label {
-    color: #ff007f;
-    text-shadow: 0 0 5px #ff007f;
-    font-weight: bold;
-}
 
 
 .extra {
